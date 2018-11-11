@@ -1,0 +1,172 @@
+html,body{
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 55px;
+    background: #fbfbfb;
+}
+.NIE-topBar{
+    height: 55px;
+    background: #fbfbfb;
+    position: relative;
+    z-index: 9999;
+    width: 1000px;
+    margin: auto;
+    font-size: 12px;
+    line-height: 24px;
+    font-family: "Microsoft YaHei",simSun,"Lucida Grande","Lucida Sans Unicode",Arial;
+}
+.NIE-topBar a{
+    color: #626262;
+}
+.NIE-topBar-logo {
+    margin-top: 5px;
+    position: relative;
+    z-index: 13!important;
+    width: 133px;
+    height: 44px;
+    display: block;
+    float: left;
+    background: url("../img/logo.png")no-repeat;
+}
+.NIE-topBar-news {
+    height: 54px;
+    display: block;
+    position: absolute;
+    z-index: 13;
+    width: 420px;
+    left: 125px;
+    padding-left: 18px;
+    padding-top: 0;
+    /*overflow: hidden;*/
+}
+.NIE-topBar-news a {
+    position: absolute;
+    z-index: 2;
+    left: -132px;
+    top: 55px;
+    height: auto;
+    width: 960px;
+    display: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+.NIE-topBar-news:hover .im1{
+    opacity: 0;
+}
+.NIE-topBar-news:hover a{
+    display: block;
+}
+.topBar-mid{
+    position: absolute;
+    right: 230px;
+}
+.topBar-mid a{
+    color: #333;
+    line-height: 52px;
+    padding: 0 12px;
+    display: inline-block;
+    transition: background ease-in-out .33s;
+}
+.topBar-mid a:hover{
+    color: #bc2e2e!important;
+    border-bottom: 3px solid #bc2e2e;
+    background-color: #F3F3F3;
+    background-image: -webkit-linear-gradient(top,#F3F3F3 0,#FEFEFE 52px);
+}
+.NIE-topBar-menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #999;
+    width: 1000px;
+    transition: height .3s ease 0s;
+}
+.NIE-topBar-menu .im2{
+    position: absolute;
+    height: 0;
+    top: 55px;
+    left: 0;
+    overflow: hidden;
+    transition: .8s;
+    cursor: pointer;
+}
+.NIE-topBar-menu:hover .im2{
+    height: 475px;
+}
+.NIE-topBar-menu span{
+    position: absolute;
+    width: 108px;
+    padding: 15px 0 12px;
+    height: 25px;
+    z-index: 20;
+    background: 0 0;
+    color: #bc2e2e;
+    line-height: 14px;
+    right: 106px;
+    display: inline-block;
+}
+.NIE-topBar-arrIcon {
+    position: relative;
+    top: 4px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-color: #fff;
+    overflow: hidden;
+}
+.NIE-topBar-arrIcon i{
+    background: url("../img/sprite-w.png")no-repeat;
+}
+.NIE-topBar-arrIcon i {
+    width: 9px;
+    height: 4px;
+    float: left;
+    margin: 6px 0 0 4px;
+    background-position: -103px -101px;
+    display: inline-block;
+    -webkit-transition: all .2s ease 0s;
+    transition: all .2s ease 0s;
+}
+.NIE-topBar-menu:hover span{
+    border-bottom: 3px solid #bc2e2e;
+    background-color: #F3F3F3;
+    background-image: -webkit-linear-gradient(top,#F3F3F3 0,#FEFEFE 52px);
+}
+.NIE-topBar-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 100px;
+    height: 55px;
+    overflow: hidden;
+    z-index: 9;
+    border-bottom: 3px solid transparent;
+    box-sizing: border-box;
+}
+.NIE-topBar-right:hover{
+    color: #bc2e2e!important;
+    border-bottom: 3px solid #bc2e2e;
+    background-color: #F3F3F3;
+    background-image: -webkit-linear-gradient(top,#F3F3F3 0,#FEFEFE 52px);
+}
+.NIE-topBar-right:hover a{
+    color: #bc2e2e!important;
+}
+.NIE-topBar-right a {
+    color: #333!important;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    line-height: 52px;
+    transition: background ease-in-out .33s;
+    -webkit-transition: background ease-in-out .33s;
+}
+.NIE-as{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 0;
+}
