@@ -108,7 +108,7 @@ $(function(){
             $(".Layer").css({"opacity":"0.9","z-index":"100"});
             //$(".pop").css({"opacity":"1","z-index":"100"});
             $('video').trigger('play');
-        })
+        });
 
         $(".pop_close").click(function(){
             console.log(1);
